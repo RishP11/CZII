@@ -1,0 +1,53 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+\input{math_commands.tex}
+
+\title{\textbf{\Huge{CZII}\\CryoET Object Identification}}
+\author{\huge{Rishabh Pomaje}\\
+\href{https://sites.google.com/view/rishabh-pomaje/about}{Personal Website}\\
+\href{rishabhpomaje@gmail.com}{Mail}}
+\date{\today}
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    % Title
+    {\Huge\bfseries CZII \\[0.5cm]
+    \textcolor{green!50!black}{\textit{CryoET Object Identification}}}\\[2cm]
+    
+    % Subtitle
+    {\Large\itshape Finding small biological structures in large 3D volumes}\\[2.5cm]
+    
+    % Horizontal line
+    \rule{\textwidth}{0.5mm} \\[0.5cm]
+    
+    % Author details
+    {\large\textbf{Rishabh Pomaje}}\\[0.2cm]
+    % {\large\textbf{Supervisor:} Supervisor Name}\\[0.2cm]
+    % {\large\textbf{Affiliation:} Institution Name}\\[2.5cm]
+    
+    % Project information
+    % {\large Submitted in partial fulfillment of the requirements for the course/project}\\[0.5cm]
+    % {\large \textbf{A Kaggle Competition}}\\[2.5cm]
+    
+    % Date
+    {\today}\\[2.5cm]
+    
+    % Final text
+    {\itshape A project documentation for academic purposes.}
+\end{titlepage}
+
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+
+\input{ch01.tex}
+\input{ch02.tex}
+
+\end{document}
